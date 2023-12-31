@@ -44,4 +44,16 @@
     <Watch Include="**\*.less" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="Pages\Order\center\Index.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Watch Remove="Pages\Order\center\Index.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Order\center\Index.razor" />
+  </ItemGroup>
+
 </Project>

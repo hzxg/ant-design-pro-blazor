@@ -166,5 +166,17 @@
         "key": "account.settings"
       }
     ]
+  },  {
+    "path": "/Order",
+    "name": "订单",
+    "key": "Order",
+    "icon": "user",
+    "children": [
+      {
+        "path": "/Order/center",
+        "name": "订单中心",
+        "key": "Order.center"
+      } 
+    ]
   }
 ]

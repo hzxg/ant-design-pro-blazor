@@ -1,11 +1,6 @@
-﻿using System.Threading.Tasks;
-using AntDesign.Pro.Template.Models;
+﻿using AntDesign.Pro.Template.Models;
 using AntDesign.Pro.Template.Services;
 using Microsoft.AspNetCore.Components;
-using AntDesign;
-using System;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Net.Http;
 
 namespace AntDesign.Pro.Template.Pages.User
 {
@@ -21,7 +16,7 @@ namespace AntDesign.Pro.Template.Pages.User
         public async void HandleSubmit()
         {
 
-            if (_model.UserName == "admin" && _model.Password == "ant.design")
+            if (_model.UserName == "123" && _model.Password == "123")
             {
                 NavigationManager.NavigateTo("/");
                 return;
